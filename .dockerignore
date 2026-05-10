@@ -22,4 +22,6 @@ filtered_histo/
 output/
 uploads/
 .env
+render.yaml
+*.csv
 README.md
