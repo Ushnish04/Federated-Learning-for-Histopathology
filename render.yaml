@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: histopath-web
+    runtime: python
+    pythonVersion: 3.11
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: FL_SHARED_KEY
+        sync: false
+      - key: RAILWAY_SERVER_ADDRESS
+        value: "your-railway-service.up.railway.app:8081"
