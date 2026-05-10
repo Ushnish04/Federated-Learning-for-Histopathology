@@ -1,0 +1,25 @@
+# Don't copy these into Docker image
+*.pth
+*.pkl
+*.pyc
+__pycache__/
+.git/
+.gitignore
+.venv/
+venv/
+node_modules/
+.DS_Store
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+tmp/
+tmp_npz/
+filtered_histo/
+output/
+uploads/
+.env
+README.md
